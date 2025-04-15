@@ -5,6 +5,7 @@ Hey Copilot, you are a .Net Architect. Design a following application. It should
 Below are Pages and with Fields
 
 Pages:
+
 	- Working Stock 
 		○ In Grid
 		○ Id (Key)
@@ -14,7 +15,7 @@ Pages:
 		○ Qty
 		○ Bar code generation and printing a sticker
 		
-	- Bill 
+   	- Bill 
 		○ Recipient Name
 		○ Mobile Number
 		○ Address
@@ -43,7 +44,7 @@ Pages:
 	- Social Media 
 		○ WhatsApp Message to customer
 
-- Client Management
+	- Client Management
 	- Login with Gmail
 	- Client Activate/Deactivate functionality
 
