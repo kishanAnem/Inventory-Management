@@ -55,12 +55,12 @@ Pages:
 		○ Mobile
 		
 	- License Management
-		○ For every customer 60 trail
-		○ Then Every month 1000/-
+		○ For every customer 60 freetrail
+		○ Then Every month 1000/- INR
 		
 	- Payment Gateway Integration
-		○ Auto Renewal every month for 1000/-
-		○ Currency convers
+		○ Auto Renewal every month for 1000/- INR
+		○ Currency conversions
 		
 	- Localization Support
 
