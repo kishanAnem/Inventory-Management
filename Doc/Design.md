@@ -83,6 +83,8 @@ Inventory
 Customer
 - CustomerId (PK, uniqueidentifier)
 - Name (nvarchar(100))
+- Gender (nvarchar(20))
+- DOB (datetime)
 - Email (nvarchar(256))
 - Phone (varchar(20))
 - Address (nvarchar(500))
