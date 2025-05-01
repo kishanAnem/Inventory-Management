@@ -61,7 +61,7 @@ Product
 - SKU (varchar(50))
 - Name (nvarchar(200))
 - Description (nvarchar(500))
-- Category (varchar(100))
+- CategoryTypeId (FK, uniqueidentifier)
 - UnitPrice (decimal(18,2))
 - MRP (decimal(18,2))
 - MinStockLevel (int)
@@ -90,6 +90,24 @@ Customer
 - State (nvarchar(100))
 - TenantId (FK, uniqueidentifier)
 - CreatedAt (datetime2)
+
+CategoryType
+- CategoryTypeId (PK, uniqueidentifier)
+- Name (nvarchar(100))
+- Description (nvarchar(500))
+- Status (varchar(20))
+- TenantId (FK, uniqueidentifier)
+- CreatedAt (datetime2)
+- UpdatedAt (datetime2)
+
+ExpenditureType
+- ExpenditureTypeId (PK, uniqueidentifier)
+- Name (nvarchar(100))
+- Description (nvarchar(500))
+- Status (varchar(20))
+- TenantId (FK, uniqueidentifier)
+- CreatedAt (datetime2)
+- UpdatedAt (datetime2)
 
 ### 2.2 Transaction Entities
 
@@ -121,7 +139,7 @@ SaleItem
 Expenditure
 - ExpenditureId (PK, uniqueidentifier)
 - Amount (decimal(18,2))
-- Type (varchar(100))
+- ExpenditureTypeId (FK, uniqueidentifier)
 - Description (nvarchar(500))
 - Date (datetime2)
 - TenantId (FK, uniqueidentifier)
