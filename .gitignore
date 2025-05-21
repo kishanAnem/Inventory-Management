@@ -1,5 +1,7 @@
 # Visual Studio / .NET Core
 ## Build results
+[Oo]bj/
+**/[Oo]bj/
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
