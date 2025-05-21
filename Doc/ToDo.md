@@ -3,35 +3,55 @@
 ## Backend Implementation
 
 ### 1. Core Domain (InventoryManagement.Core)
-- [ ] Implement Core Entities
-  - [ ] Tenant
-  - [ ] User
-  - [ ] Product
-  - [ ] Inventory
-  - [ ] Customer
-  - [ ] CategoryType
-  - [ ] ExpenditureType
-  - [ ] Sale and SaleItem
-  - [ ] Expenditure
-  - [ ] PaymentTransaction
-  - [ ] Subscription
-  - [ ] InventoryTransaction
-  - [ ] AuditLog
+- [x] Implement Core Entities
+  - [x] Tenant
+  - [x] User
+  - [x] Product
+  - [x] Inventory
+  - [x] Customer
+  - [x] CategoryType
+  - [x] ExpenditureType
+  - [x] Sale and SaleItem
+  - [x] Expenditure
+  - [x] PaymentTransaction
+  - [x] Subscription
+  - [x] InventoryTransaction
+  - [x] AuditLog
 
-- [ ] Define Core Interfaces
-  - [ ] Repository interfaces
-  - [ ] Service interfaces
-  - [ ] Unit of Work interface
+- [x] Define Core Interfaces
+  - [x] Repository interfaces
+  - [x] Service interfaces
+  - [x] Unit of Work interface
 
 ### 2. Infrastructure Layer (InventoryManagement.Infrastructure)
 - [ ] Database Context Setup
-  - [ ] ApplicationDbContext
+  - [x] ApplicationDbContext
   - [ ] Entity configurations
   - [ ] Initial migrations
 
 - [ ] Repository Implementations
-  - [ ] Generic repository
+  - [x] Generic repository
   - [ ] Entity-specific repositories
+    - [x] TenantRepository implementation
+    - [ ] UserRepository implementation
+    - [ ] ProductRepository implementation
+    - [ ] InventoryRepository implementation
+    - [ ] CustomerRepository implementation
+    - [ ] CategoryTypeRepository implementation
+    - [ ] ExpenditureRepository implementation
+    - [ ] SaleRepository implementation
+    - [ ] PaymentTransactionRepository implementation
+    - [ ] SubscriptionRepository implementation
+
+- [ ] Service Implementations
+  - [x] TenantService implementation
+  - [ ] UserService implementation
+  - [ ] ProductService implementation
+  - [ ] InventoryService implementation
+  - [ ] CustomerService implementation
+  - [ ] SaleService implementation
+  - [ ] PaymentService implementation
+  - [ ] SubscriptionService implementation
 
 - [ ] Identity Implementation
   - [ ] Configure IdentityServer
