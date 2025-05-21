@@ -5,6 +5,11 @@
 
 # dotenv files
 .env
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+# Build results
+[Dd]ebug/
 # Visual Studio / .NET
 [Bb]in/
 [Oo]bj/
