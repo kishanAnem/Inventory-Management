@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{32BD1598-AA3A-4DB7-BEA5-057D81E4A9AD}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManagement.Core", "src\InventoryManagement.Core\InventoryManagement.Core.csproj", "{9FA4A004-F759-4059-B9DB-6A81E4C37DAF}"
 EndProject
@@ -19,9 +22,6 @@ Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9FA4A004-F759-4059-B9DB-6A81E4C37DAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -45,11 +45,17 @@ Global
 		{D7DB1ED3-F1BE-463F-8993-F319FF7BA017}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7DB1ED3-F1BE-463F-8993-F319FF7BA017}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9FA4A004-F759-4059-B9DB-6A81E4C37DAF} = {32BD1598-AA3A-4DB7-BEA5-057D81E4A9AD}
 		{E6052FF0-27DE-4FD8-A1F7-743C4247FF2E} = {32BD1598-AA3A-4DB7-BEA5-057D81E4A9AD}
 		{82DDD78A-ECC8-4840-A906-CDBEE3752CCF} = {32BD1598-AA3A-4DB7-BEA5-057D81E4A9AD}
 		{E14B27C7-69E3-4BA3-B3D9-BACA85113BA3} = {32BD1598-AA3A-4DB7-BEA5-057D81E4A9AD}
 		{D7DB1ED3-F1BE-463F-8993-F319FF7BA017} = {32BD1598-AA3A-4DB7-BEA5-057D81E4A9AD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EAE1040A-694B-4987-AD86-82688181A9EF}
 	EndGlobalSection
 EndGlobal
