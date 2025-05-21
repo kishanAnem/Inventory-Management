@@ -11,4 +11,5 @@ public interface ITenantService
     Task<Tenant?> GetTenantByIdAsync(Guid tenantId);
     Task<bool> IsTenantActiveAsync(Guid tenantId);
     Task<IEnumerable<Tenant>> GetAllActiveTenants();
+    Guid? GetCurrentTenantId(); 
 }

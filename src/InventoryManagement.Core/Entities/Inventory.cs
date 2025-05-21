@@ -7,6 +7,10 @@ public class Inventory : BaseEntity
 {
     public Guid TenantId { get; set; }
     public Guid ProductId { get; set; }
+    public int CurrentStock { get; set; }
+    public int MinimumStock { get; set; }
+    public int MaximumStock { get; set; }
+    public string Location { get; set; } = string.Empty;
     public int Quantity { get; set; }
     public decimal PurchasePrice { get; set; }
     public DateTime PurchaseDate { get; set; }
