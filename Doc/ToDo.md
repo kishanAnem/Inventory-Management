@@ -60,13 +60,18 @@
   - [ ] Role-based authorization
 
 - [ ] External Services Integration
-  - [ ] Messaging Infrastructure
-    - [ ] Message broker abstraction layer
-    - [ ] Message handlers and processors
-    - [ ] Integration events implementation
-  - [ ] Redis caching
-  - [ ] Razorpay integration
-  - [ ] WhatsApp Business API
+  - [x] Messaging Infrastructure
+    - [x] Message broker abstraction layer (IMessageBroker)
+    - [x] Message handlers and processors (IIntegrationEventHandler)
+    - [x] Integration events implementation (IIntegrationEvent)
+  - [x] Cache Service Abstraction (ICacheService)
+  - [x] Payment Service Abstraction (IPaymentService)
+  - [x] WhatsApp Service Abstraction (IWhatsAppService)
+  - [ ] Implementations
+    - [ ] Redis caching implementation
+    - [ ] RabbitMQ/Azure Service Bus implementation
+    - [ ] Razorpay integration implementation
+    - [ ] WhatsApp Business API implementation
 
 ### 3. Application Layer (InventoryManagement.Application)
 - [ ] DTOs
