@@ -26,7 +26,7 @@
 ### 2. Infrastructure Layer (InventoryManagement.Infrastructure)
 - [ ] Database Context Setup
   - [x] ApplicationDbContext
-  - [ ] Entity configurations
+  - [x] Entity configurations
   - [ ] Initial migrations
 
 - [x] Repository Implementations
@@ -60,7 +60,10 @@
   - [ ] Role-based authorization
 
 - [ ] External Services Integration
-  - [ ] RabbitMQ setup
+  - [ ] Messaging Infrastructure
+    - [ ] Message broker abstraction layer
+    - [ ] Message handlers and processors
+    - [ ] Integration events implementation
   - [ ] Redis caching
   - [ ] Razorpay integration
   - [ ] WhatsApp Business API
