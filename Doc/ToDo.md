@@ -29,29 +29,29 @@
   - [ ] Entity configurations
   - [ ] Initial migrations
 
-- [ ] Repository Implementations
+- [x] Repository Implementations
   - [x] Generic repository
-  - [ ] Entity-specific repositories
+  - [x] Entity-specific repositories
     - [x] TenantRepository implementation
-    - [ ] UserRepository implementation
-    - [ ] ProductRepository implementation
-    - [ ] InventoryRepository implementation
-    - [ ] CustomerRepository implementation
-    - [ ] CategoryTypeRepository implementation
-    - [ ] ExpenditureRepository implementation
-    - [ ] SaleRepository implementation
-    - [ ] PaymentTransactionRepository implementation
-    - [ ] SubscriptionRepository implementation
+    - [x] UserRepository implementation
+    - [x] ProductRepository implementation
+    - [x] InventoryRepository implementation
+    - [x] CustomerRepository implementation
+    - [x] CategoryTypeRepository implementation
+    - [x] ExpenditureRepository implementation
+    - [x] SaleRepository implementation
+    - [x] PaymentTransactionRepository implementation
+    - [x] SubscriptionRepository implementation
 
-- [ ] Service Implementations
+- [x] Service Implementations
   - [x] TenantService implementation
-  - [ ] UserService implementation
-  - [ ] ProductService implementation
-  - [ ] InventoryService implementation
-  - [ ] CustomerService implementation
-  - [ ] SaleService implementation
-  - [ ] PaymentService implementation
-  - [ ] SubscriptionService implementation
+  - [x] UserService implementation
+  - [x] ProductService implementation
+  - [x] InventoryService implementation
+  - [x] CustomerService implementation
+  - [x] SaleService implementation
+  - [x] PaymentService implementation
+  - [x] SubscriptionService implementation
 
 - [ ] Identity Implementation
   - [ ] Configure IdentityServer
